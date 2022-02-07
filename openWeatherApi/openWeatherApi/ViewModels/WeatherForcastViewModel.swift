@@ -29,9 +29,7 @@ extension WeatherForcastViewModel {
     
     func getWeatherForcast() {
         if let currentLocation = CoreLocationManager.sharedInstance.currentlocation {
-            if let timer  = timer {
-                timer.invalidate()
-            }
+            timer?.invalidate()
             repo.getWeatherForcast(currentCoordinates: CLLocation(latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude)) {[weak self] result in
                 guard let self = self else {return}
                 switch result {
