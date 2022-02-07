@@ -16,6 +16,7 @@
 		52E6AEC627B16FD80084AF57 /* openWeatherApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEC527B16FD80084AF57 /* openWeatherApiTests.swift */; };
 		52E6AED027B16FD80084AF57 /* openWeatherApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AECF27B16FD80084AF57 /* openWeatherApiUITests.swift */; };
 		52E6AED227B16FD80084AF57 /* openWeatherApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AED127B16FD80084AF57 /* openWeatherApiUITestsLaunchTests.swift */; };
+		52E6AEE827B171BF0084AF57 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEE727B171BF0084AF57 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		52E6AECB27B16FD80084AF57 /* openWeatherApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openWeatherApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E6AECF27B16FD80084AF57 /* openWeatherApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openWeatherApiUITests.swift; sourceTree = "<group>"; };
 		52E6AED127B16FD80084AF57 /* openWeatherApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openWeatherApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52E6AEE727B171BF0084AF57 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		52E6AEE627B170AF0084AF57 /* NetworkService */ = {
 			isa = PBXGroup;
 			children = (
+				52E6AEE727B171BF0084AF57 /* NetworkService.swift */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 			files = (
 				52E6AEB327B16FD40084AF57 /* WeatherForcastViewController.swift in Sources */,
 				52E6AEAF27B16FD40084AF57 /* AppDelegate.swift in Sources */,
+				52E6AEE827B171BF0084AF57 /* NetworkService.swift in Sources */,
 				52E6AEB127B16FD40084AF57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
