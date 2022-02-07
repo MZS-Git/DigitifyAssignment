@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WeatherForcastTableViewCell" rowHeight="188" id="KGk-i7-Jjw" customClass="WeatherForcastTableViewCell" customModule="SolidTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="188"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="188"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bfk-9L-7WM">
+                        <rect key="frame" x="0.0" y="0.0" width="437" height="188"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zu6-Zw-eXN">
+                                <rect key="frame" x="20" y="12" width="57.5" height="20"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                <color key="textColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGR-pc-3f7">
+                                <rect key="frame" x="384" y="40" width="33" height="20"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                <color key="textColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunlight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yor-zw-cS7">
+                                <rect key="frame" x="193.5" y="40" width="50.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="14"/>
+                                <color key="textColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H: 21º L: 32º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oa3-wU-kt1">
+                                <rect key="frame" x="20" y="40" width="96" height="20"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                <color key="textColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun.min.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ee0-Vd-zPw">
+                                <rect key="frame" x="206.5" y="12.5" width="24" height="23"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="AF6-lN-V0P"/>
+                                    <constraint firstAttribute="height" constant="24" id="fxY-XG-nNW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humidity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXb-tc-qfa">
+                                <rect key="frame" x="348" y="12" width="69" height="20"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                <color key="textColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oa3-wU-kt1" firstAttribute="leading" secondItem="zu6-Zw-eXN" secondAttribute="leading" id="1Yj-0h-RvK"/>
+                            <constraint firstAttribute="trailing" secondItem="JXb-tc-qfa" secondAttribute="trailing" constant="20" id="5fD-lk-xJr"/>
+                            <constraint firstItem="oa3-wU-kt1" firstAttribute="top" secondItem="zu6-Zw-eXN" secondAttribute="bottom" constant="8" id="8Ey-Mv-RxT"/>
+                            <constraint firstItem="CGR-pc-3f7" firstAttribute="trailing" secondItem="JXb-tc-qfa" secondAttribute="trailing" id="DH2-Dr-6x9"/>
+                            <constraint firstItem="Ee0-Vd-zPw" firstAttribute="centerX" secondItem="bfk-9L-7WM" secondAttribute="centerX" id="NYe-4v-zzV"/>
+                            <constraint firstItem="Yor-zw-cS7" firstAttribute="top" secondItem="oa3-wU-kt1" secondAttribute="top" id="O79-ZE-f1h"/>
+                            <constraint firstItem="Ee0-Vd-zPw" firstAttribute="top" secondItem="zu6-Zw-eXN" secondAttribute="top" id="Ws2-Fe-cDk"/>
+                            <constraint firstItem="zu6-Zw-eXN" firstAttribute="leading" secondItem="bfk-9L-7WM" secondAttribute="leading" constant="20" id="c2A-JA-Hs9"/>
+                            <constraint firstItem="CGR-pc-3f7" firstAttribute="top" secondItem="Yor-zw-cS7" secondAttribute="top" id="d6O-k4-tZQ"/>
+                            <constraint firstItem="zu6-Zw-eXN" firstAttribute="top" secondItem="bfk-9L-7WM" secondAttribute="top" constant="12" id="el2-qs-28a"/>
+                            <constraint firstItem="Yor-zw-cS7" firstAttribute="centerX" secondItem="Ee0-Vd-zPw" secondAttribute="centerX" id="j1g-OI-Tfs"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oa3-wU-kt1" secondAttribute="bottom" constant="12" id="srZ-F0-WqU"/>
+                            <constraint firstItem="JXb-tc-qfa" firstAttribute="top" secondItem="zu6-Zw-eXN" secondAttribute="top" id="wKU-ZZ-pJD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="bfk-9L-7WM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="QqI-nS-eo1"/>
+                    <constraint firstAttribute="bottom" secondItem="bfk-9L-7WM" secondAttribute="bottom" id="XZs-oo-uiu"/>
+                    <constraint firstItem="bfk-9L-7WM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="q5C-at-fl8"/>
+                    <constraint firstAttribute="trailing" secondItem="bfk-9L-7WM" secondAttribute="trailing" id="zMT-zs-KQC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="forcastDayLbl" destination="zu6-Zw-eXN" id="a6Y-5d-fYk"/>
+                <outlet property="humidityLbl" destination="JXb-tc-qfa" id="gpV-4X-fgL"/>
+                <outlet property="minMaxTempLbl" destination="oa3-wU-kt1" id="MCs-TZ-6uo"/>
+                <outlet property="rainPredictionLbl" destination="CGR-pc-3f7" id="40U-Ks-gsn"/>
+                <outlet property="weatherTypeImageView" destination="Ee0-Vd-zPw" id="2gl-Mw-8CQ"/>
+                <outlet property="weatherTypeLbl" destination="Yor-zw-cS7" id="fIu-PO-rXy"/>
+            </connections>
+            <point key="canvasLocation" x="129.71014492753625" y="82.366071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="sun.min.fill" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
