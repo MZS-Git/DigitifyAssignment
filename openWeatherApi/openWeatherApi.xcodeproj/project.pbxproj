@@ -18,6 +18,7 @@
 		52E6AED227B16FD80084AF57 /* openWeatherApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AED127B16FD80084AF57 /* openWeatherApiUITestsLaunchTests.swift */; };
 		52E6AEE827B171BF0084AF57 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEE727B171BF0084AF57 /* NetworkService.swift */; };
 		52E6AEEC27B172AB0084AF57 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEEB27B172AB0084AF57 /* WeatherModel.swift */; };
+		52E6AEEE27B173360084AF57 /* WeatherFocastRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEED27B173360084AF57 /* WeatherFocastRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		52E6AED127B16FD80084AF57 /* openWeatherApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openWeatherApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		52E6AEE727B171BF0084AF57 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		52E6AEEB27B172AB0084AF57 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		52E6AEED27B173360084AF57 /* WeatherFocastRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFocastRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 		52E6AEE427B170760084AF57 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				52E6AEED27B173360084AF57 /* WeatherFocastRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E6AEEE27B173360084AF57 /* WeatherFocastRepository.swift in Sources */,
 				52E6AEB327B16FD40084AF57 /* WeatherForcastViewController.swift in Sources */,
 				52E6AEAF27B16FD40084AF57 /* AppDelegate.swift in Sources */,
 				52E6AEE827B171BF0084AF57 /* NetworkService.swift in Sources */,
