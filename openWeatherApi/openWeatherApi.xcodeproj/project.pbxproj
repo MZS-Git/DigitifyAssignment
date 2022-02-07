@@ -17,6 +17,7 @@
 		52E6AED027B16FD80084AF57 /* openWeatherApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AECF27B16FD80084AF57 /* openWeatherApiUITests.swift */; };
 		52E6AED227B16FD80084AF57 /* openWeatherApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AED127B16FD80084AF57 /* openWeatherApiUITestsLaunchTests.swift */; };
 		52E6AEE827B171BF0084AF57 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEE727B171BF0084AF57 /* NetworkService.swift */; };
+		52E6AEEC27B172AB0084AF57 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEEB27B172AB0084AF57 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		52E6AECF27B16FD80084AF57 /* openWeatherApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openWeatherApiUITests.swift; sourceTree = "<group>"; };
 		52E6AED127B16FD80084AF57 /* openWeatherApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openWeatherApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		52E6AEE727B171BF0084AF57 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		52E6AEEB27B172AB0084AF57 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		52E6AEAD27B16FD40084AF57 /* openWeatherApi */ = {
 			isa = PBXGroup;
 			children = (
+				52E6AEEA27B172700084AF57 /* Models */,
 				52E6AEE627B170AF0084AF57 /* NetworkService */,
 				52E6AEE527B1708C0084AF57 /* Utilities */,
 				52E6AEE427B170760084AF57 /* Repositories */,
@@ -192,6 +195,14 @@
 				52E6AEE727B171BF0084AF57 /* NetworkService.swift */,
 			);
 			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		52E6AEEA27B172700084AF57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52E6AEEB27B172AB0084AF57 /* WeatherModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +340,7 @@
 				52E6AEAF27B16FD40084AF57 /* AppDelegate.swift in Sources */,
 				52E6AEE827B171BF0084AF57 /* NetworkService.swift in Sources */,
 				52E6AEB127B16FD40084AF57 /* SceneDelegate.swift in Sources */,
+				52E6AEEC27B172AB0084AF57 /* WeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
