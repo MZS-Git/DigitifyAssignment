@@ -19,8 +19,22 @@ class openWeatherApiTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let jsonData = "[{\"t\"}]".data(using: .utf8)
+        let apiParser = AppDataSerializer()
+        var errorResponse: Error?
+        let errorExpectation = expectation(description: "error")
+        apiParser.parseData(data: jsonData!, ofType: WeatherResult.self) { result in
+            switch result {
+            case .success(let response):
+                print(response)
+            case .failure(let failure):
+                errorResponse = failure
+                errorExpectation.fulfill()
+            }
+        }
+        waitForExpectations(timeout: 1) { (error) in
+            XCTAssertNotNil(errorResponse)
+          }
     }
 
     func testPerformanceExample() throws {

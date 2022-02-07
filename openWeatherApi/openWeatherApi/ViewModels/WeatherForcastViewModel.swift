@@ -16,7 +16,7 @@ class WeatherForcastViewModel {
     
     var forcastDataDelegate: ForcastDataProtocol?
     var dailyForcast: [Daily]?
-    var timer: Timer!
+    var timer: Timer?
     
     private var repo: WeatherFocastRepository!
     
@@ -29,7 +29,9 @@ extension WeatherForcastViewModel {
     
     func getWeatherForcast() {
         if let currentLocation = CoreLocationManager.sharedInstance.currentlocation {
-            timer.invalidate()
+            if let timer  = timer {
+                timer.invalidate()
+            }
             repo.getWeatherForcast(currentCoordinates: CLLocation(latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude)) {[weak self] result in
                 guard let self = self else {return}
                 switch result {
