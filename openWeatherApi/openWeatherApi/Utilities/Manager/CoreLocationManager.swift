@@ -1,8 +1,8 @@
 //
 //  LocationManager.swift
-//  Skyspace
+//  openWeatherApi
 //
-//  Created by Zain@CodeDistrict on 8/26/21.
+//  Created by Muhammad Zain Shahid on 07/02/2022.
 //
 
 import UIKit

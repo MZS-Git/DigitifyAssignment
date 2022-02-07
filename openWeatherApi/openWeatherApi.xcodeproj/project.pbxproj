@@ -25,6 +25,7 @@
 		52E6AEFA27B17F900084AF57 /* UiView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEF627B17F900084AF57 /* UiView+Extension.swift */; };
 		52E6AEFB27B17F900084AF57 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEF727B17F900084AF57 /* Double+Extension.swift */; };
 		52E6AEFC27B17F900084AF57 /* TableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEF827B17F900084AF57 /* TableViewCell+Extension.swift */; };
+		52E6AEFE27B1801A0084AF57 /* WeatherForcastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6AEFD27B1801A0084AF57 /* WeatherForcastViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		52E6AEF627B17F900084AF57 /* UiView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiView+Extension.swift"; sourceTree = "<group>"; };
 		52E6AEF727B17F900084AF57 /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		52E6AEF827B17F900084AF57 /* TableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		52E6AEFD27B1801A0084AF57 /* WeatherForcastViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForcastViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		52E6AEE327B1706B0084AF57 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				52E6AEFD27B1801A0084AF57 /* WeatherForcastViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				52E6AEB327B16FD40084AF57 /* WeatherForcastViewController.swift in Sources */,
 				52E6AEFC27B17F900084AF57 /* TableViewCell+Extension.swift in Sources */,
 				52E6AEFA27B17F900084AF57 /* UiView+Extension.swift in Sources */,
+				52E6AEFE27B1801A0084AF57 /* WeatherForcastViewModel.swift in Sources */,
 				52E6AEAF27B16FD40084AF57 /* AppDelegate.swift in Sources */,
 				52E6AEE827B171BF0084AF57 /* NetworkService.swift in Sources */,
 				52E6AEB127B16FD40084AF57 /* SceneDelegate.swift in Sources */,

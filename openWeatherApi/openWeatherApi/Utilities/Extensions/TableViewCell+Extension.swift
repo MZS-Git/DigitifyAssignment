@@ -1,6 +1,6 @@
 //
 //  TableViewCell+Extension.swift
-//  SolidTest
+//  openWeatherApi
 //
 //  Created by Muhammad Zain Shahid on 07/02/2022.
 //
